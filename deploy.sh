@@ -55,11 +55,6 @@ if ! npm run build; then
     exit 1
 fi
 
-if [ ! -d "dist" ] && [ ! -d "build" ]; then
-    echo "ERROR: No build output directory found"
-    exit 1
-fi
-
 echo "Restarting application..."
 if pm2 restart quote-share 2>/dev/null; then
     echo "Application restarted successfully"
