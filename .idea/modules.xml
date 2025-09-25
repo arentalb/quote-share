@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/quote.iml" filepath="$PROJECT_DIR$/.idea/quote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quote-share.iml" filepath="$PROJECT_DIR$/.idea/quote-share.iml" />
     </modules>
   </component>
 </project>
